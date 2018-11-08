@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN - THẾ GIỚI THƯƠNG MẠI ĐIỆN TỬ - T&P Shop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+	<div class="container-fruid">
+
+		<div class="container">
+				
+			<div class="row">
+
+				<div class="col-md-8 welcome">
+					<h1>Welcome to <span class="text-warning">Cena Store</span></h1>
+					Enjoy shopping with many exciting offers.
+				</div>
+				<div class="col-md-4">
+					
+					<div class="form-login">
+			
+						<form method="POST" role="form">
+							<legend>LOGIN</legend>
+						
+							<p id="errorMessage" class="text-warning"></p>
+
+							<div class="form-group">
+								<label for="username">Username</label>
+								<input type="text" class="form-control" id="username" placeholder="Enter username...">
+							</div>
+						
+							<div class="form-group">
+								<label for="password">Password</label>
+								<input type="password" class="form-control" id="password" placeholder="Enter password...">
+							</div>
+						
+							<div>
+								<a href="#">Forget password?</a>
+							</div>
+
+							<div class="controls">
+								<a href="index.html" class="btn btn-info">
+									<i class="fa fa-home fa-lg"></i> HOME
+								</a>
+								<button type="button" class="btn btn-primary" onclick="login()">SIGN IN 
+									<i class="fa fa-sign-in"></i>
+								</button>
+								<a href="signup.html" class="btn btn-default">SIGN UP 
+									<i class="fa fa-user-circle-o"></i>
+								</a>
+							</div>
+						</form>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+</body>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/action.js"></script>

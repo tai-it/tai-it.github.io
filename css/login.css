@@ -1,0 +1,40 @@
+body {
+	background: #FFFFFF url(../img/background-login.png) no-repeat top;
+	/*background-size: cover;*/
+}
+
+.form-login legend {
+	color: #FFFFFF;
+}
+
+.welcome {
+	margin-top: 17%;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 180%;
+}
+
+.form-login {
+	margin-top: 40%;
+	padding: 30px;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+}
+
+.controls {
+	text-align: center;
+	padding-top: 15px;
+}
+
+@media screen and (max-width: 992px) {
+	.welcome {
+		margin-top: 10%;
+	}
+
+	.form-login {
+		margin-top: 10%;
+		padding: 30px;
+		color: #FFFFFF;
+		border: 2px solid #FFFFFF;
+	}
+}

@@ -1,0 +1,42 @@
+body {
+	background: #FFFFFF url(../img/background-login.png) no-repeat top;
+	/*background-size: cover;*/
+}
+
+.welcome {
+	margin-top: 17%;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 180%;
+}
+
+.form-login {
+	margin-top: 50px;
+	padding: 30px;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+}
+
+.controls {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.form-login legend {
+	color: #FFFFFF;
+}
+
+@media screen and (max-width: 992px) {
+	.welcome .t-hide {
+		display: none;
+	}
+	.welcome:after {
+		content: "Đăng ký tài khoản hoàn toàn miễn phí!"
+	}
+	.form-login {
+		margin-top: 10%;
+		padding: 30px;
+		color: #FFFFFF;
+		border: 2px solid #FFFFFF;
+	}
+}
