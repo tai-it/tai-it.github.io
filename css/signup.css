@@ -1,6 +1,6 @@
 body {
-	background: #FFFFFF url(../img/background-login.png) no-repeat top;
-	/*background-size: cover;*/
+	background: #cccccc url(../img/background-login.png) no-repeat;
+	background-size: cover;
 }
 
 .welcome {
@@ -14,7 +14,8 @@ body {
 	margin-top: 50px;
 	padding: 30px;
 	color: #FFFFFF;
-	border: 2px solid #FFFFFF;
+	border-radius: 7px;
+	background: rgba(0,0,0,0.8);
 }
 
 .controls {
@@ -27,6 +28,9 @@ body {
 }
 
 @media screen and (max-width: 992px) {
+	body{
+		height: 740px;
+	}
 	.welcome .t-hide {
 		display: none;
 	}

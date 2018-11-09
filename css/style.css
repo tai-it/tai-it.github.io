@@ -156,8 +156,7 @@
 	height: 414px;
 	border: 2px solid #e6e6e6;
 	border-radius: 7px;
-	padding-right: 0px;
-	padding-left: 0px;
+	padding: 1px;
 }
 
 .list-small {
@@ -318,6 +317,7 @@
 .tab-content .product {
 	border: 2px solid #e6e6e6;
 	border-radius: 10px;
+	padding: 2px;
 }
 
 .tab-content .product:hover {
@@ -375,6 +375,7 @@
 .deal-and-best-price .product, .deal-product {
 	border: 2px solid #e6e6e6;
 	border-radius: 10px;
+	padding: 2px;
 }
 
 .deal-and-best-price .product .price {

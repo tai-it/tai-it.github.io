@@ -1,6 +1,7 @@
 body {
-	background: #FFFFFF url(../img/background-login.png) no-repeat top;
-	/*background-size: cover;*/
+	background: #cccccc url(../img/background-login.png) no-repeat;
+	background-size: cover;
+	height: 645px;
 }
 
 .form-login legend {
@@ -18,7 +19,8 @@ body {
 	margin-top: 40%;
 	padding: 30px;
 	color: #FFFFFF;
-	border: 2px solid #FFFFFF;
+	border-radius: 7px;
+	background: rgba(0,0,0,0.8);
 }
 
 .controls {
@@ -27,6 +29,9 @@ body {
 }
 
 @media screen and (max-width: 992px) {
+	/*body {
+		height: 645px;
+	}*/
 	.welcome {
 		margin-top: 10%;
 	}
